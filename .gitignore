@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # clean-code code test file
-/mnt/repository/til/books/clean-code/test.js
+/books/clean-code/test.js
