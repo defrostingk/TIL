@@ -1,13 +1,7 @@
-const example = {
-  name: 'Tom',
-  home: {
-    price: 20,
-    address: 'Seoul',
-  },
-};
+const key1 = 'key';
+const key2 = 'key';
+console.log(key1 === key2);
 
-function printAddress({ home: { address } }) {
-  console.log(address);
-}
-
-printAddress(example); // Seoul
+const symbolKey1 = Symbol('key');
+const symbolKey2 = Symbol('key');
+console.log(symbolKey1 === symbolKey2);
