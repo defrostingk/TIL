@@ -1,7 +1,11 @@
-const key1 = 'key';
-const key2 = 'key';
-console.log(key1 === key2);
+// TODO(defrostingk): XX기능 구현하기
 
-const symbolKey1 = Symbol('key');
-const symbolKey2 = Symbol('key');
-console.log(symbolKey1 === symbolKey2);
+/**
+ *
+ * @param {*} a
+ * @param {*} b
+ * @returns
+ */
+function sum(a, b) {
+  return a + b;
+}
