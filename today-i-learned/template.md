@@ -1,4 +1,4 @@
-# yyyy. mm. dd. Thur
+# yyyy. mm. dd. Thu
 
 ### 오늘 한 일
 
