@@ -112,4 +112,12 @@ scheme, host, port로 이루어진 도메인을 의미한다.
 
 ## CORS 이슈 해결
 
-서버에서 Access-Control-Allow-Origin 을 세팅한다.
+- 서버에서 응답 헤더에 Access-Control-Allow-Origin 를 추가한다.
+
+  - 클라이언트 도메인의 요청을 허락한다는 의미이다.
+
+  - credentials 옵션도 true로 하여 다른 도메인 간 쿠키 공유를 허락한다.
+
+- 프록시 서버를 사용한다.
+
+  - 서버에서 서버로 요청을 보낼 때는 CORS 문제가 발생하지 않는다.
