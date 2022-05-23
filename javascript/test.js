@@ -1,6 +1,3 @@
-console.log(score);
-
-score = 80;
-var score;
-
-console.log(score);
+var a, b, c;
+a = b = c = 0;
+console.log(a, b, c);
