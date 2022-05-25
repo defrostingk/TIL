@@ -1,8 +1,6 @@
-outer: for (let i = 0; i < 3; i++) {
-  for (let j = 0; j < 3; j++) {
-    if (i + j === 3) break outer;
-    console.log(`inner [${i}, ${j}]`);
-  }
-}
+var elem = null;
+// var value = elem.value; // TypeError: Cannot read property 'value' of null
 
-console.log('done');
+var value = elem && elem.value; // null
+
+console.log(value);
