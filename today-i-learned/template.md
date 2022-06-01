@@ -42,8 +42,6 @@
 
 - SSAFY 준비
 
-  - swea 문제 풀이(계속)
-
 - See See Call Call(계속)
 
 - 운동기록 웹앱 '삼대몇?(big3)' 제작(계속)
