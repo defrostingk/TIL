@@ -1,9 +1,5 @@
-var x = 'global';
+const str = new String(123);
 
-function foo() {
-  console.log(x);
-  var x = 'local';
-}
+console.log(str);
 
-foo();
-console.log(x);
+console.log(typeof str);
