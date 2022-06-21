@@ -1,5 +1,7 @@
-const str = new String(123);
+function foo() {
+  console.log(this);
+}
 
-console.log(str);
+foo();
 
-console.log(typeof str);
+new foo();
