@@ -1,7 +1,10 @@
-function foo() {
-  console.log(this);
+function getThisBinding() {
+  console.log(arguments);
+  return this;
 }
 
-foo();
+const thisArg = { a: 1 };
 
-new foo();
+console.log(getThisBinding.apply(thisArg, [1, 2, 3]));
+
+console.log(getThisBinding.call(thisArg, 1, 2, 3));
