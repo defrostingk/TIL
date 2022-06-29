@@ -38,12 +38,4 @@
 
   - FEATURE calendar
 
-- Nomad Coders 강의 보기
-
-  - ReactJS로 영화 웹 서비스 만들기
-
-    - Styling
-
-  - Typescript로 블록체인 만들기
-
 <br><br>
